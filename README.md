@@ -1,5 +1,5 @@
 ## front-end-cypress
-Front End cypress automation using cucumber
+Front End cypress automation
 
 ## Init project
 
