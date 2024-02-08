@@ -1,0 +1,22 @@
+{
+  "name": "front-end-cypress",
+  "version": "1.0.0",
+  "description": "Front End cypress automation using cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabmdoss/front-end-cypress.git"
+  },
+  "author": "Gabriela Santos",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gabmdoss/front-end-cypress/issues"
+  },
+  "homepage": "https://github.com/gabmdoss/front-end-cypress#readme",
+  "dependencies": {
+    "cypress": "^13.6.4"
+  }
+}
