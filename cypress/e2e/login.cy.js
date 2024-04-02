@@ -59,5 +59,6 @@ describe('Login', () => {
   
   it('Username and password empty', () => {
     cy.get('.oxd-button').click()
-    cy.contains('Required').should('be.visible') })
+    cy.get('.oxd-form > div:nth-of-type(1) .oxd-text').should('be.visible')
+    cy.get('.oxd-form > div:nth-of-type(2) .oxd-text').should('be.visible') })
 });
