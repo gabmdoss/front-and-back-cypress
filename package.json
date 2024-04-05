@@ -1,10 +1,11 @@
 {
   "name": "front-end-cypress",
   "version": "1.0.0",
-  "description": "Front End cypress automation using cucumber",
+  "description": "Front End cypress automation",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:open": "cypress open",
+    "test": "cypress run"
   },
   "repository": {
     "type": "git",
@@ -18,5 +19,8 @@
   "homepage": "https://github.com/gabmdoss/front-end-cypress#readme",
   "dependencies": {
     "cypress": "^13.6.4"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1"
   }
 }
