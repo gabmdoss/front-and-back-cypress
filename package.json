@@ -18,7 +18,8 @@
   },
   "homepage": "https://github.com/gabmdoss/front-end-cypress#readme",
   "dependencies": {
-    "cypress": "^13.6.4"
+    "cypress": "^13.17.0",
+    "yaml": "^2.7.0"
   },
   "devDependencies": {
     "@faker-js/faker": "^8.4.1"
