@@ -4,6 +4,7 @@ describe('Login', () => {
     cy.visit('/')
   })
 
+  
   it('Login successfully', () => {
     cy.get('[name="username"]').type(Cypress.env('username'))
     cy.get('[name="password"]').type(Cypress.env('password'))
