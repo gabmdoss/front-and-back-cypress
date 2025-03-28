@@ -1,3 +1,5 @@
+import common from '../../support/commonUtils.js'
+
 describe('Login', () => {
 
   beforeEach(() => {
@@ -6,11 +8,13 @@ describe('Login', () => {
 
   
   it('Login successfully', () => {
+    const data = common.dataAtual()
     cy.get('[name="username"]').type(Cypress.env('username'))
     cy.get('[name="password"]').type(Cypress.env('password'))
     cy.get('.oxd-button').click()
     cy.url().should('be.equal', 'https://opensource-demo.orangehrmlive.com/web/index.php/dashboard/index')
     cy.get('.oxd-topbar-header-breadcrumb').should('be.visible')
+    cy.screenshot('screenshot' + data);
   })
 
   it('Password Incorrect', () => {
